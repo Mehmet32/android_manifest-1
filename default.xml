@@ -13,7 +13,7 @@
   <default revision="refs/tags/android-4.0.4_r1.1"
            remote="aosp" />
   
-  <project path="build" name="CyanogenMod/android_build" remote="github" revision="ics">
+  <project path="build" name="89luca89/android_build" remote="github" revision="ics">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
