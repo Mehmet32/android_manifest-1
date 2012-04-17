@@ -250,7 +250,7 @@
   <project path="hardware/samsung" name="89luca89/android_hardware_samsung" remote="github" revision="master" />
   <project path="packages/apps/SamsungServiceMode" name="89luca89/android_packages_apps_SamsungServiceMode" remote="github" revision="master" />
   <project path="packages/apps/OTA" name="89luca89/android_packages_apps_OTA" remote="github" revision="master" />
-  <project path="packages/apps/FileManager" name="89luca89/android_packages_FileManager" remote="github" revision="master" />
+  <project path="packages/apps/FileManager" name="89luca89/android_packages_apps_FileManager" remote="github" revision="gingerbread" />
   <project path="packages/apps/Settings" name="89luca89/android_packages_apps_Settings" remote="github" revision="master" />
   <project path="vendor/samsung/galaxys2" name="89luca89/vendor_samsung_galaxys2" remote="github" revision="master" />
   <!-- Linaro extras -->
