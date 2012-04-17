@@ -236,6 +236,7 @@
 
   <!-- Additional hardware support from CyanogenMod -->
   <!--<project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="github" revision="ics" />-->
+  <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" remote="github" revision="ics" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" revision="ics" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" remote="github" revision="ics" />
   <!--<project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="ics" />
@@ -246,7 +247,6 @@
   <project path="frameworks/base" name="89luca89/platform_frameworks_base" remote="github" revision="master" />
   <project path="hardware/libhardware" name="89luca89/platform_hardware_libhardware" remote="github" revision="master" />
   <project path="packages/apps/Camera" name="89luca89/platform_packages_apps_camera" remote="github" revision="master" />
-  <project path="packages/providers/MediaProvider" name="89luca89/android_packages_providers_MediaProvider" remote="github" revision="master" />
   <project path="hardware/samsung" name="89luca89/android_hardware_samsung" remote="github" revision="master" />
   <project path="packages/apps/SamsungServiceMode" name="89luca89/android_packages_apps_SamsungServiceMode" remote="github" revision="master" />
   <project path="packages/apps/OTA" name="89luca89/android_packages_apps_OTA" remote="github" revision="master" />
