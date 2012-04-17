@@ -13,7 +13,7 @@
   <default revision="refs/tags/android-4.0.4_r1.1"
            remote="aosp" />
   
-  <project path="build" name="89luca89/android_build">
+  <project path="build" name="89luca89/android_build" remote="github" revision="master">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -247,17 +247,17 @@
   <project path="system/su" name="CyanogenMod/android_system_su" remote="github" revision="ics" /> -->
 
   <!-- Samsung Galaxy S2 patched AOSP based trees -->
-  <project path="device/samsung/galaxys2" name="89luca89/android_device_samsung_galaxys2" />
-  <project path="frameworks/base" name="89luca89/platform_frameworks_base" />
-  <project path="hardware/libhardware" name="89luca89/platform_hardware_libhardware" />
-  <project path="packages/apps/Camera" name="89luca89/platform_packages_apps_camera" />
-  <project path="packages/providers/MediaProvider" name="89luca89/android_packages_providers_MediaProvider" />
-  <project path="hardware/samsung" name="89luca89/android_hardware_samsung" />
-  <project path="packages/apps/SamsungServiceMode" name="89luca89/android_packages_apps_SamsungServiceMode" />
-  <project path="packages/apps/OTA" name="89luca89/android_packages_apps_OTA" />
-  <project path="packages/apps/FileManager" name="89luca89/android_packages_FileManager" />
-  <project path="packages/apps/Settings" name="89luca89/android_packages_apps_Settings" />
-  <project path="vendor/samsung/galaxys2" name="89luca89/vendor_samsung_galaxys2" />
+  <project path="device/samsung/galaxys2" name="89luca89/android_device_samsung_galaxys2" remote="github" revision="master" />
+  <project path="frameworks/base" name="89luca89/platform_frameworks_base" remote="github" revision="master" />
+  <project path="hardware/libhardware" name="89luca89/platform_hardware_libhardware" remote="github" revision="master" />
+  <project path="packages/apps/Camera" name="89luca89/platform_packages_apps_camera" remote="github" revision="master" />
+  <project path="packages/providers/MediaProvider" name="89luca89/android_packages_providers_MediaProvider" remote="github" revision="master" />
+  <project path="hardware/samsung" name="89luca89/android_hardware_samsung" remote="github" revision="master" />
+  <project path="packages/apps/SamsungServiceMode" name="89luca89/android_packages_apps_SamsungServiceMode" remote="github" revision="master" />
+  <project path="packages/apps/OTA" name="89luca89/android_packages_apps_OTA" remote="github" revision="master" />
+  <project path="packages/apps/FileManager" name="89luca89/android_packages_FileManager" remote="github" revision="master" />
+  <project path="packages/apps/Settings" name="89luca89/android_packages_apps_Settings" remote="github" revision="master" />
+  <project path="vendor/samsung/galaxys2" name="89luca89/vendor_samsung_galaxys2" remote="github" revision="master" />
   <!-- Linaro extras -->
   <!--<project path="packages/apps/0xbench" name="platform/packages/apps/0xbench" remote="linaro" revision="linaro-master" /> -->
   <!-- <project path="hardware/samsung/origen/gralloc_ump" name="platform/hardware/samsung/origen/gralloc_ump" remote="linaro" revision="linaro_android_4.0.3" /> -->
