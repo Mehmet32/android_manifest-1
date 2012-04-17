@@ -257,6 +257,7 @@
   <project path="packages/apps/OTA" name="89luca89/android_packages_apps_OTA" remote="github" revision="ics" />
   <project path="packages/apps/FileManager" name="89luca89/android_packages_FileManager" remote="github" revision="ics" />
   <project path="packages/apps/Settings" name="89luca89/android_packages_apps_Settings" remote="github" revision="ics" />
+  <project path="vendor/samsung/galaxys2" name="89luca89/vendor_samsung_galaxys2" remote="github" revision="ics" />
   <!-- Linaro extras -->
   <!--<project path="packages/apps/0xbench" name="platform/packages/apps/0xbench" remote="linaro" revision="linaro-master" /> -->
   <!-- <project path="hardware/samsung/origen/gralloc_ump" name="platform/hardware/samsung/origen/gralloc_ump" remote="linaro" revision="linaro_android_4.0.3" /> -->
